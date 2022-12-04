@@ -1,7 +1,7 @@
 version: '3'
 services:
   rtsp2mjpg:
-    image: eroji/rtsp2mjpg
+    image: rr2250/rtsp2mjpg
     restart: always
     expose:
       - "8090"
